@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>SIS Login</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Left image area -->
+  <div class="left"></div>
+
+  <!-- Right login panel -->
+  <div class="right">
+    <h2>الدخول</h2>
+
+    <label>اسم الدخول</label>
+    <input type="text" placeholder="المستخدم">
+
+    <label>كلمة السر</label>
+    <input type="password" placeholder="********">
+
+    <div class="remember">
+      <input type="checkbox" checked>
+      <span>حفظ كلمة المرور</span>
+    </div>
+
+    <button>دخول</button>
+
+    <a href="#">نسيت كلمة المرور؟</a>
+  </div>
+
+</div>
+
+</body>
+</html>
